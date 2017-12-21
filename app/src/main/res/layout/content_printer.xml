@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cn.ipaya.app.easyticket.activities.PrinterActivity"
+    tools:showIn="@layout/activity_printer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include android:id="@+id/content_printer_support_bluetooth" layout="@layout/content_printer_support_bluetooth" android:visibility="gone"/>
+        <include android:id="@+id/content_printer_unsupport_bluetooth" layout="@layout/content_printer_unsupport_bluetooth" android:visibility="gone"/>
+
+    </LinearLayout>
+</ScrollView>

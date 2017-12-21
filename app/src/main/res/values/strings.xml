@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">小票助手</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_settings">设置</string>
+    <string name="title_about">关于小票助手</string>
+    <string name="title_check_update">检查新版本</string>
+    <string name="title_printer">打印机</string>
+
+    <string name="copyright">Copyright © 2018 </string>
+    <string name="about_app">
+        "小票助手是一款打印便携式小票的软件。\n\n"
+
+        "它可以方便快捷的设计小票样式。\n\n"
+    </string>
+<string name="printer__enable_bluetooth">开启蓝牙</string>
+
+</resources>
