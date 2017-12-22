@@ -2,6 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group>
+
+        <item
+            android:id="@+id/nav_fast_print"
+            android:title="@string/title_fast_print" />
+
         <item
             android:id="@+id/nav_printer"
             android:title="@string/title_printer" />

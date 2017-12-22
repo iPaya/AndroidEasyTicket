@@ -7,4 +7,5 @@
     <color name="colorWarning">#ff9800</color>
     <color name="colorWindowBackground">#f0f0f0</color>
     <color name="colorBoxBackground">#FFFFFF</color>
+    <color name="colorSuccess">#00ad65</color>
 </resources>

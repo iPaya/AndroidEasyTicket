@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.ipaya.app.easyticket">
 
-    <uses-permission android:name="android.permission.BLUETOOTH"/>
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
         android:name=".Application"
@@ -38,7 +38,13 @@
         <activity
             android:name=".activities.PrinterActivity"
             android:label="@string/title_printer"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.prints.FastPrintActivity"
+            android:label="@string/title_fast_print"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name=".services.PrintService" />
     </application>
 
 </manifest>
