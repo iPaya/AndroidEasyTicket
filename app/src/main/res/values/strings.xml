@@ -16,6 +16,11 @@
 
         "它可以方便快捷的设计小票样式。\n\n"
     </string>
-<string name="printer__enable_bluetooth">开启蓝牙</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="printer__not_found_printer_comment">没有找到您的打印机？请先使用系统蓝牙设置，连接您的打印机。</string>
+    <string name="printer__no_default_printer">未设置默认打印机，请点击已配对打印机进行设置。</string>
+    <string name="printer__set_default_printer">设置默认打印机</string>
 
 </resources>

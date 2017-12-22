@@ -15,8 +15,9 @@ import android.view.View;
 
 import cn.ipaya.app.easyticket.activities.PrinterActivity;
 import cn.ipaya.app.easyticket.activities.SettingsActivity;
+import cn.ipaya.app.easyticket.base.BaseActivity;
 
-public class MainActivity extends AppCompatActivity
+public class MainActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override

@@ -5,6 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorText">#444444</color>
     <color name="colorWarning">#ff9800</color>
-    <color name="colorWindowBackground">#f5f5f5</color>
+    <color name="colorWindowBackground">#f0f0f0</color>
     <color name="colorBoxBackground">#FFFFFF</color>
 </resources>

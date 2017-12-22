@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import cn.ipaya.app.easyticket.R;
 
 /**
@@ -19,7 +21,15 @@ import cn.ipaya.app.easyticket.R;
 public class BondedBluetoothDeviceAdapter extends BaseAdapter {
 
     static class ViewHolder {
-        TextView text;
+        @BindView(R.id.title)
+        TextView title;
+
+        @BindView(R.id.subtitle)
+        TextView subtitle;
+
+        public ViewHolder(View view) {
+            ButterKnife.bind(this, view);
+        }
     }
 
     private Context mContext;
@@ -52,15 +62,15 @@ public class BondedBluetoothDeviceAdapter extends BaseAdapter {
         ViewHolder holder;
         if (convertView == null) {
             convertView = mInflater.inflate(R.layout.item_bonded_bluetooth_device, parent, false);
-            holder = new ViewHolder();
-            holder.text = (TextView) convertView.findViewById(R.id.text);
+            holder = new ViewHolder(convertView);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
 
         BluetoothDevice bluetoothDevice = getItem(position);
-        holder.text.setText(bluetoothDevice.getName());
+        holder.title.setText(bluetoothDevice.getName());
+        holder.subtitle.setText(bluetoothDevice.getAddress());
 
         return convertView;
     }
